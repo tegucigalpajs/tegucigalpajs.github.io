@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,900);
 body{
-	font-family:"museo sans",Roboto,serif;
+	font-family: 'Raleway', sans-serif;
 }
 header{
 	background: rgba(18, 22, 30,.5) !important;
