@@ -1,0 +1,87 @@
+body{
+	font-family:"museo sans",Roboto,serif;
+}
+header{
+	background: rgba(18, 22, 30,.5) !important;
+	color:#fff;
+	z-index: 1980;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+section{
+	color: rgb(255, 255, 255);
+	position: relative;
+	display: block !important;
+	overflow: hidden;
+}
+nav a:hover{
+	border-bottom:.2em solid rgb(255, 204, 5) !important ;
+}
+span{ font-size:4em; color:rgb(255, 204, 5);}
+.btn-meetup{
+	background-color: rgb(255, 204, 5)!important;
+}
+.button{
+	background-color: rgb(255, 204, 5) !important;
+	font-weight: 700 !important;
+}
+.content h2{
+	font-weight: 500;
+	font-size: 2em !important;
+	color:rgb(255, 204, 5);
+}
+.content p{
+	font-size: 2em;
+}
+.feature h2{
+	font-weight: 500;
+	font-size: 2em !important;
+}
+.overlay{
+	background-color: rgba(18, 22, 30,.6);
+	color:#fff;
+	/*padding: 10rem 0;*/
+	width: 100%;
+	height: 100%;
+}
+/*.overlay .title h1{
+	font-size: 4em;
+}*/
+.dark-2{
+	background: #21292F;
+	color:#fff;
+}
+.dark-1{
+	background: #12161E;
+}
+.light-2{
+	background: rgb(18, 22, 30);
+}
+.title{
+	font-size: 3em !important;
+}
+.icon-sociales{
+	font-size: 1.7em;
+
+}
+.icon-sociales a:hover{
+	border-bottom: none !important;
+	text-shadow: 0px 0px 10px silver;
+	color:white !important;
+}
+/*.row-2{
+	padding: 4rem 0;
+}*/
+.bg-landing{
+	background: url(../../components/img/bg2.jpg) 50% 50% / cover;
+}
+.logo-medium{
+	width: 50% !important;
+	height: auto !important;
+}
+.box-elements img{
+	width: 50%;
+	height: auto;
+}
